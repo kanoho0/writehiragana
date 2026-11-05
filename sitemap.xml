@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://kanoho0.github.io/writehiragana</loc>
+    <image:image>
+      <image:loc>http://kanoho0.github.io/writehiragana/gif-hiragana/a/a.gif</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://kanoho0.github.io/writehiragana/katakana.html</loc>
+    <image:image>
+      <image:loc>http://kanoho0.github.io/writehiragana/gif-katakana/a/a.gif</image:loc>
+    </image:image>
+  </url>
+</urlset>

@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* container for mojis */
+.moji-container {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* box for moji */
+
+.moji-box {
+  border: #ebebeb solid 1px;
+  box-sizing: border-box;
+
+  width: 100%;
+  max-width: 19%;
+
+  transition: 0.2s;
+  position: relative;
+  z-index: 0;
+}
+
+.moji-box span {
+  text-align: center;
+  display: block;
+}
+
+.moji-box:hover {
+  box-shadow: 0 0 6px #e25050;
+  z-index: 5;
+}
+
+.moji-box:hover span {
+  color: #e25050;
+  transform: scale(1.1);
+}
+
+.empty-box {
+  width: 100%;
+  max-width: 19%;
+}
+
+.x-axis {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  width: 100%;
+  line-height: 2;
+}
+
+.x-axis span {
+  text-align: center;
+  color: #fff;
+
+  top: 0;
+}
+
+.x-axis > span:first-of-type {
+  width: 5%;
+}
+
+.x-axis > span:not(:first-of-type) {
+  width: 19%;
+}
+
+.y-axis {
+  border-top: #fff solid 1px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.4);
+  flex-basis: 5%;
+  display: flex;
+  justify-content: center;
+
+  max-width: 5%;
+}
+
+.y-axis span {
+  align-self: center;
+  padding: 0.2rem;
+  color: #fff;
+}
+
+main div:last-child {
+  text-align: center;
+}
+
+
+/* dl sheet*/
+#dl-sheet {
+  margin: 0 auto 80px;
+  padding: 0.8rem 1.6rem 0 1rem;
+  border: 1px #e7e7e7 solid;
+  display: block;
+  width: 80vw;
+  max-width: 300px;
+  transition: 0.3s;
+}
+
+#dl-sheet:hover {
+  border-color: #000;
+  box-shadow: 0 0 8px rgb(255 167 167);
+  opacity: 0.8;
+}
+
+#dl-sheet img {
+  vertical-align: bottom;
+}
+
+
+
+
+
+
+.hiragana-intro p:nth-child(3) {
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+
+.hiragana-intro a {
+  text-decoration: underline;
+
+}
+
+
+@media (min-width: 411px) {
+  .moji-container {
+  margin: 0 auto 80px;
+
+
+    max-width: 40rem;
+  }
+
+
+}
